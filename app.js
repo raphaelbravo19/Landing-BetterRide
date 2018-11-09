@@ -5,7 +5,7 @@ function Aplicar () {
 	if (elemento.value != "" && elemento2.value != "") {
 		//var tokengen= generate_token(12)
         $.ajax({
-            url: "http://srv-desa.eastus2.cloudapp.azure.com/appbetterride/api/v1/organizations",
+            url: "https://srv-desa.eastus2.cloudapp.azure.com/appbetterride/api/v1/organizations",
             type: "POST",
            
             data: {
